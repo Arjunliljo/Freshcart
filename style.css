@@ -7,14 +7,14 @@
 #header-top{
     background-color:  rgb(228, 228, 228);
 }
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
 #header-top .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.container{
-    width: 90%;
-    margin: 0 auto;
 }
 
 #flag{
