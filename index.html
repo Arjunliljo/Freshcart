@@ -48,4 +48,15 @@
     <footer></footer>
 
 </body>
+<script>
+    const parantContainer = document.querySelector('.header-center-search');
+    const child = document.querySelector('.header-center-search input')
+
+    child.addEventListener('focus', (e) => {
+        parantContainer.style.border = `2px solid green`;
+    })
+    child.addEventListener('blur', (e) => {
+        parantContainer.style.border = `2px solid rgb(179, 179, 179)`;
+    })
+</script>
 </html>
